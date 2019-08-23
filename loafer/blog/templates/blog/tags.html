@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+    Tags
+{% endblock %}
+
+{% block content %}
+
+    {% for tag in tags %}
+        <div class="card">
+            <a href="{{ tag.get_delete_url }}" class="btn btn-sm btn-default">delete</a>
+
+            <div class="card-body">
+                <h5 class="card-title">{{ tag.title }}</h5>
+            </div>
+        </div>
+    {% endfor %}
+
+{%endblock %}
