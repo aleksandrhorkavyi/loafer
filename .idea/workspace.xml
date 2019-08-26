@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f941ed7b-4795-47bd-b2f1-5ec042bc17c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/dict.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_hotkeys.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_phrase-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_tools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/history/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/mysql.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loafer/static/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loafer/loafer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/loafer/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loafer/loafer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/loafer/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loafer/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loafer/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
