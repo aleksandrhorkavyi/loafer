@@ -1,0 +1,30 @@
+<div class="row mt-3">
+    <div class="col-md-12">
+        <ul id="phrase-list" class="list-group list-group-flush" data-url="{% url 'update_items_order_url' %}">
+            {% for phrase in phrases %}
+            <li data-key="{{ phrase.pk }}" class="list-group-item list-group-item-brand">
+                <a class="btn btn-brand rounded-circle btn-sm mr-2" href="{{ phrase.get_success_url }}">
+                    <span class="fa {% if phrase.is_passed is True %} fa-star {% else %} fa-thumbs-up {% endif %}"></span>
+                </a>
+
+                <span class="orig-phrase-item {% if request.session.orig_phrase is True %} open {% else %} closed {% endif %}">
+                    {{ phrase.original }}
+                </span>
+
+                <span class="translation-item {% if request.session.transl_phrase is True %} open {% else %} closed {% endif %}">
+                - <span class="status-off">{{ phrase.translation }}</span>
+                </span>
+
+                <div class="float-right">
+                    <a class="btn btn-brand rounded-circle btn-sm" href="{{ phrase.get_update_url }}">
+                        <span class="fa fa-cogs"></span>
+                    </a>
+                    <a class="btn btn-brand rounded-circle btn-sm" href="{{ phrase.get_delete_url }}">
+                        <span class="fa fa-trash"></span>
+                    </a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

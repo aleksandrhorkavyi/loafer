@@ -1,0 +1,8 @@
+[client]
+database = dj_loafer_db
+user = loafer_user
+password = sensey12
+default-character-set = utf8mb4
+
+[mysql]
+default-character-set = utf8mb4

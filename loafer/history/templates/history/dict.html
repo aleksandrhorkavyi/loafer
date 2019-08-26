@@ -1,0 +1,17 @@
+{% extends 'history/base.html' %}
+
+{% block title %}
+Dictionary - {{block.super}}
+{% endblock %}
+
+{% block content %}
+
+{% include 'history/includes/_phrase-form.html' %}
+
+{% include 'history/includes/_tools.html' %}
+
+{% include 'history/includes/_list.html' %}
+
+{% include 'history/includes/_hotkeys.html' %}
+
+{% endblock %}

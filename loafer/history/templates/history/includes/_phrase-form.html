@@ -1,0 +1,24 @@
+<form id="phrase-form" action="{{ action }}" method="post">
+    <div class="form-row">
+        {% csrf_token %}
+
+        <div class="col">
+            {{ form.original }}
+            {% if form.original.errors %}
+            <small class="form-text text-muted">{{ form.original.errors }}</small>
+            {% endif %}
+        </div>
+
+        <div class="col">
+            {{ form.translation }}
+            {% if form.translation.errors %}
+            <small class="form-text text-muted">{{ form.translation.errors }}</small>
+            {% endif %}
+        </div>
+
+        <span>
+            <button type="submit" class="btn btn-brand"><i class="fa fa-save"></i></button>
+        </span>
+
+    </div>
+</form>

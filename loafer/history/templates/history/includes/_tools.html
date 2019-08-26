@@ -1,0 +1,18 @@
+<div class="tools-container mt-2">
+    <a id="btn-orig_phrase" class="{% if request.session.orig_phrase is not True %} status-off {% endif %} btn btn-brand btn-sm" href="{% url 'show_orig_phrase_url' %}">
+        <span class="fa {% if request.session.orig_phrase is True %} fa-toggle-on {% else %} fa-toggle-off {% endif %}"></span> Original phrase
+    </a>
+
+    <a id="btn-translation" class="{% if request.session.transl_phrase is not True %} status-off {% endif %} btn btn-brand btn-sm" href="{% url 'switch_transl_phrase_url' %}">
+        <span class="fa {% if request.session.transl_phrase is True %} fa-toggle-on {% else %} fa-toggle-off {% endif %}"></span> Translation
+    </a>
+
+    <a id="btn-passed" class="{% if with_passed is not True %} status-off {% endif %} btn btn-brand btn-sm" href="{% url 'switch_passed_url' %}">
+        <span class="fa {% if with_passed is True %} fa-toggle-on {% else %} fa-toggle-off {% endif %}"></span> Only passed
+    </a>
+
+    <a id="btn-hotkeys" class="{% if request.session.show_hotkeys is not True %} status-off {% endif %} btn btn-brand btn-sm" href="{% url 'show_hotkeys_url' %}">
+        <span class="fa {% if request.session.show_hotkeys is True %} fa-toggle-on {% else %} fa-toggle-off {% endif %}"></span> Hotkeys
+    </a>
+
+</div>

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f941ed7b-4795-47bd-b2f1-5ec042bc17c0" name="Default Changelist" comment="" />
+    <list default="true" id="f941ed7b-4795-47bd-b2f1-5ec042bc17c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/dict.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_hotkeys.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_phrase-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/templates/history/includes/_tools.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/history/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/mysql.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loafer/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loafer/loafer/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/loafer/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loafer/loafer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/loafer/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loafer/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loafer/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/loafer/templates/base.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +33,34 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PdfvHgfQESAU9QbTk5EFUldvcg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/loafer/blog/templates/blog" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/loafer/history/templates/history/includes" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/loafer/blog/templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loafer/history/templates/history/includes" />
+      <recent name="$PROJECT_DIR$/loafer/history" />
+      <recent name="$PROJECT_DIR$/loafer/history/templates/history" />
       <recent name="$PROJECT_DIR$/loafer/blog/templates/blog" />
       <recent name="$PROJECT_DIR$/loafer/blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loafer/static" />
+      <recent name="$PROJECT_DIR$/loafer/loafer" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/loafer" />
+      <recent name="$PROJECT_DIR$/loafer/blog/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -55,5 +87,22 @@
       <updated>1566209122343</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
