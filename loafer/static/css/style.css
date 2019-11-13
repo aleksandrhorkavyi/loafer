@@ -38,6 +38,11 @@ ul.errorlist {
     box-shadow: 0 0 0 1px #549077;
 }
 
+.orig-phrase-item:hover {
+    border-bottom: dotted 1px #549077;
+    cursor: pointer;
+}
+
 .tools-container {
     width:100%;
     height: 41px;

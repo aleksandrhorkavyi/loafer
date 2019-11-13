@@ -11,5 +11,6 @@ urlpatterns = [
     path('switch-passed-url/', SwitchPassedUrl.as_view(), name='switch_passed_url'),
     path('switch-orig-phrase/', ShowOrigPhrase.as_view(), name='show_orig_phrase_url'),
     path('show-hotkeys/', ShowHotkeys.as_view(), name='show_hotkeys_url'),
-    path('update-items-order', update_items_order, name='update_items_order_url'),
+    path('update-items-order/', update_items_order, name='update_items_order_url'),
+    path('speach/<int:id>/', speach, name='speach_url')
 ]
