@@ -98,6 +98,17 @@ $(function() {
             updateItemsOrder(itemsOrder);
         }
    });
+
+    $('.orig-phrase-item').on('click', function (e) {
+        let key = $(this).closest('li').data('key');
+        let csrf_token = $('#phrase-form > div > input[type=hidden]').val();
+
+        $.ajax({
+            type: "POST",
+            url: `/history/speach/${key}/`,
+            headers: {'X-CSRFToken': csrf_token},
+        });
+    })
  });
 
 function updateItemsOrder(itemsOrder) {
@@ -112,6 +123,5 @@ function updateItemsOrder(itemsOrder) {
             console.log(response);
         }
     });
-
-
 }
+

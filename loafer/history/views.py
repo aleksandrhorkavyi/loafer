@@ -1,10 +1,13 @@
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render, redirect
 from django.views.generic import View
 from .forms import PhraseForm
 from .models import Phrase
 from .utils import SessionSwitcherMixin
 from .utils import InitSessionSwitchersMixin
+
+from google_speech import Speech
+
 
 class DictView(InitSessionSwitchersMixin, View):
     form_model = PhraseForm
@@ -122,3 +125,15 @@ def update_items_order(request):
         phrase.save()
 
     return JsonResponse({'status': 'success'})
+
+
+def speach(request, id):
+
+    phrase = Phrase.objects.get(pk=id)
+
+
+    speech = Speech(phrase.original, "en")
+    sox_effects = ("speed", "1")
+    speech.play(sox_effects)
+
+    return HttpResponse('Speach')
